@@ -55,7 +55,7 @@ triangle(x+90,y+60,x+85,y+40,x+110,y+66);
 fill(g,b,r,a);//2
 triangle(x+90,y+60,x+97,y+100,x+110,y+66);
  
- if (mouseX< x+110 && mouseX< x-15 && mouseY<y+123&&mouseY>y+30&& mousePressed){
+ if (mouseX< x+110 && mouseX> x-15 && mouseY<y+123&&mouseY>y+30&& mousePressed){
     x= x-50;
     y= y-50;
     r=115;
